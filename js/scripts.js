@@ -17,10 +17,6 @@ window.onload = function() {
   imgElement.setAttribute('width', '50%');
   document.body.appendChild(imgElement);
 
-  const h1Element = document.createElement("h1"); 
-  h1Element.append("Facts about the Multicolored Tanager");
-  document.querySelector("body").append(h1Element);
-
   const ul = document.createElement("ul");
   ul.setAttribute("id", "tanagerFacts");
   document.querySelector("body").append(ul);
@@ -30,4 +26,16 @@ window.onload = function() {
   liTwo.append("It usually searches for insects on the underside of leaves of outer limbs while clinging to leaves with its feet.");
   document.getElementById("tanagerFacts").append(liOne, liTwo);
 
+  const h2Element = document.createElement("h2"); 
+  h2Element.append("Source");
+  document.querySelector("body").append(h2Element);
+
+  const sourceLink = document.createElement("a");
+  sourceLink.setAttribute("href","https://en.wikipedia.org/wiki/Multicoloured_tanager")
+  // THIS IS WHAT WE DID WRONG: sourceLink.append("href=");
+  // sourceLink.append("https://en.wikipedia.org/wiki/Multicoloured_tanager"); --This was WRONG
+  sourceLink.append("Wikipedia");
+  document.querySelector("body").append(sourceLink);
+
 };
+
