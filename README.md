@@ -1,37 +1,29 @@
-# _{Application Name}_
+# Website Recreation
 
-#### By _**{List of contributors}**_
+#### By Eliot Gronstal and Erin Timlin
 
-#### _{Brief description of application}_
+#### A website that recreated HTML using only JavaScript and the document and Element methods.
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* Javascript
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+A website that recreated HTML using only JavaScript and the document and Element methods we learned about in the "Adding and Removing HTML elements" lesson during Week 3 of Intro to Programming at Epicodus.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* Clone Repo to your computer.
+* Open html in your browser.
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs.
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+MIT
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) 2023 Eliot Gronstal and Erin Timlin.
